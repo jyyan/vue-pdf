@@ -161,6 +161,7 @@ export default function(PDFJS) {
 									PRINT_UNITS, 0, 0,
 									PRINT_UNITS, 0, 0
 								],
+      								background: 'rgba(0,0,0,0)',
 								viewport: viewport,
 								intent: 'print'
 							}).promise;
