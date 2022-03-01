@@ -215,6 +215,7 @@ export default function(PDFJS) {
 
 			pdfRender = pdfPage.render({
 				canvasContext: canvasElt.getContext('2d'),
+				background: 'rgba(0,0,0,0)',
 				viewport: viewport
 			});
 
